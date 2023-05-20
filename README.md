@@ -3,6 +3,8 @@
 
 Mojave is a Mac OSX like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Pantheon, XFCE, Mate, etc.
 
+#### This a unnoficial fork with square toolbar buttons and plume color variant, because round buttons it's bad. This not mainline project, just for lulz.
+
 ## Requirements
 ### GTK2 Murrine engine requirements.
 
@@ -48,37 +50,17 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 |-o, --opacity        | Specify theme opacity variant(s) **[standard/solid]** (Default: All variants)|
 |-a, --alt            | Specify titlebutton variant(s) **[standard/alt]** (Default: All variants)|
 |-s, --small          | Specify titlebutton size variant(s) **[standard/small]** (Default: standard variants)|
-|-t, --theme          | Specify primary theme color variant(s) **[default/blue/purple/pink/red/orange/yellow/green/grey/all]** (Default: MacOS blue)|
+|-t, --theme          | Specify primary theme color variant(s) **[default/blue/purple/pink/red/orange/yellow/green/grey/plume/all]** (Default: MacOS blue)|
 |-i, --icon           | activities icon variant(s) **[standard/normal/gnome/ubuntu/arch/manjaro/fedora/debian/void]** (Default: standard variant)|
 |-l, --libadwaita     | Install gtk4.0 theme in $HOME/.config/gtk-4.0 for libadwaita apps|
 |-g, --gdm            | Install GDM theme, you should run this with sudo!|
 |-r, --revert         | revert GDM theme, you should run this with sudo!|
 |-h, --help           | Show this help|
 
-### On Snapcraft
-
-<a href="https://snapcraft.io/mojave-themes">
-<img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
-</a>
-
-You can install the theme from the Snap Store оr by running:
-
-```
-sudo snap install mojave-themes
-```
-To connect the theme to an app run:
-```
-sudo snap connect [other snap]:gtk-3-themes mojave-themes:gtk-3-themes
-```
-To connect the theme to all apps which have available plugs to gtk-common-themes you can run:
-```
-for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i mojave-themes:gtk-3-themes; done
-```
-
 #### AUR for ArchLinux/Manjaro
-Search `mojave-gtk-theme-git` : https://aur.archlinux.org/packages/mojave-gtk-theme-git/
+Search `mojave-gtk-theme-square-git` : https://aur.archlinux.org/packages/mojave-gtk-theme-git/
 
-    yay -S mojave-gtk-theme-git
+    yay -S mojave-gtk-theme-square-git
 
 ### Kde theme
 [McMojave-kde](https://github.com/vinceliuice/McMojave-kde)

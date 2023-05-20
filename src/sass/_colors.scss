@@ -21,6 +21,7 @@
   @if ($theme == 'yellow') { @return $theme_color_yellow; }
   @if ($theme == 'green') { @return $theme_color_green; }
   @if ($theme == 'grey') { @return $theme_color_grey; }
+  @if ($theme == 'plume') { @return $theme_color_plume; }
 }
 
 // Base colors
