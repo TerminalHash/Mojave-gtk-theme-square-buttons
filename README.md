@@ -69,7 +69,7 @@ Search `mojave-gtk-theme-square-git` : https://aur.archlinux.org/packages/mojave
 [McMojave-circle](https://github.com/vinceliuice/McMojave-circle)
 
 ### Wallpaper
-[Mojave default wallpapers](https://github.com/vinceliuice/Mojave-gtk-theme/blob/images/macOS_Mojave_Wallpapers.tar.xz)
+[Mojave default wallpapers](https://github.com/vinceliuice/Mojave-gtk-theme/blob/images/wallpapers)
 
 ## Fix entries issues of dark version on Firefox
 
